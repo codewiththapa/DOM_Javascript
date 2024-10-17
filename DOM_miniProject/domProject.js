@@ -8,11 +8,11 @@ btn.addEventListener('click',()=>{
 
   if(bulb == 0){
   box.style.backgroundColor = 'yellow'
-  console.log('bulb is turn on');
+  btn.innerHTML = 'ON';
   bulb = 1;
   }else{
     box.style.backgroundColor = 'green'
-    console.log('bulb is turn off');
+     btn.innerHTML = 'OFF';
     bulb = 0;
   };
 
