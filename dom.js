@@ -2,6 +2,8 @@
 1. Selection of an element using Javascript   
 2.Changing HTML       3.Changing  C.S.S           4.Event Listener         */
 
+/* SYNTAX OF: addEventListener 
+                                 document.addEventListener(event, function, Capture)  */
 
 //1. Selection of an element using Javascript   
 const heading = document.querySelector('h1');  
